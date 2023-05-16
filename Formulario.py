@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import messagebox as mb
 
 class MuestraWidgetsActividad:
-    def _init_(self, raiz):
+    def __init__(self, raiz):
         raiz.title("Procesamiento CSV")
         self.Nombre = StringVar()
         self.ApellidoPaterno = StringVar()
